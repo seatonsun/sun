@@ -10,7 +10,7 @@ from scrapy.http.response.html import HtmlResponse
 class FincSpider(scrapy.Spider):
     name = 'finc'
     allowed_domains = ['finance.591hx.com']
-    start_urls = ['http://finance.591hx.com/list/jj_2861.shtml/']
+    start_urls = ['http://finance.591hx.com/list/jj.shtml/']
 
    # def start_requests(self):
     #    yield Request("http://finance.591hx.com/list/jj_2861.shtml/", headers={
